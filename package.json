@@ -1,0 +1,38 @@
+{
+  "name": "sparsi",
+  "version": "0.0.1",
+  "description": "Experimental graph sparsification web app.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "kotatsu serve --jsx --public / . main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medialab/sparsi.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/medialab/sparsi/issues"
+  },
+  "homepage": "https://github.com/medialab/sparsi#readme",
+  "devDependencies": {
+    "kotatsu": "^0.22.3",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "d3-scale": "^4.0.2",
+    "graphology": "^0.23.2",
+    "graphology-communities-louvain": "^2.0.0",
+    "graphology-layout": "^0.5.0",
+    "graphology-layout-forceatlas2": "^0.8.1",
+    "graphology-layout-noverlap": "^0.4.1",
+    "graphology-metrics": "^2.1.0",
+    "jotai": "^1.4.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sigma": "^2.1.3"
+  }
+}

@@ -1,0 +1,47 @@
+@import "bulma/css/bulma.css";
+
+h2 {
+  padding: 4% 0%;
+  font-size: 2em;
+}
+
+html, body, #sigma-container {
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    /* overflow: hidden; */
+    /* position: relative; */
+}
+
+#header {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    width: 100%
+}
+
+#rescale-button {
+    z-index: 1;
+    position: fixed;
+    left: 90%;
+    top : 25%;
+}
+
+#import-button {
+  z-index: 1;
+  position: fixed;
+  right: 90%;
+  top : 25%;
+}
+
+#layout{
+  z-index: 1;
+  position: fixed;
+  right: 89.5%;
+  top: 35%;
+}
+
+#forceatlas, #noverlap {
+  padding: 10% 0%
+}
